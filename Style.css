@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    box-align: center;
+    margin: 100px 100px;
+    padding: 10px;
+    background-image: url(https://res.cloudinary.com/ankur-programer/image/upload/v1661325823/pexels-gradienta-7130560_hj6tn6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    border: 1px solid rgb(57, 195, 246);
+    background-color: rgb(169, 228, 244);
+    max-width: 400px;
+    height: 320px;
+    position: relative;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(247, 0, 202);
+}
+h3 {
+    padding-top: 0;
+    color: rgb(247, 0, 202);
+}
+
+label {
+    text-align: center;
+    width: 150px;
+    float: center;
+    
+}
+
+input {
+    height: 30px;
+    width: 210px;
+}
+
+input [type=text], input [type=email]{
+    width: 100%;
+    padding: 12px  20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 19, 19);
+    box-sizing: border-box;
+    
+}
+
+button {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 220px;
+    font-size: 15px;
+}
+
+button:hover {
+  background-color: green;
+    opacity: 0.9;
+}
+input:hover {
+  background-color: rgb(186, 247, 128);
+    opacity: 0.6;
+}
+@media only screen and (max-width: 600px){
+    body{
+        display: flex;
+    flex-direction: column;
+        width: 45%!important;
+    }
+}
+
+div {
+    text-align: center;
+}
